@@ -56,6 +56,20 @@ table {
 	width: 200px;
 	height: 200px;
 }
+.me2 {
+	width: 260px;
+	height: 600px;
+}
+.story p{
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	color: #33331a;
+	font-size: 14pt;
+	line-height: 1.3em;
+	font-weight: 700;
+	text-align: justify;
+	margin-bottom: 10px;
+}
 
 body {
 	-webkit-text-size-adjust: none;
