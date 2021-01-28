@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3721a393.chunk.css",
+    "main.js": "/static/js/main.6040a706.chunk.js",
+    "main.js.map": "/static/js/main.6040a706.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a76ddda4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a76ddda4.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.8669eca8.chunk.js": "/static/js/2.8669eca8.chunk.js",
+    "static/js/2.8669eca8.chunk.js.map": "/static/js/2.8669eca8.chunk.js.map",
+    "static/js/3.5c117da0.chunk.js": "/static/js/3.5c117da0.chunk.js",
+    "static/js/3.5c117da0.chunk.js.map": "/static/js/3.5c117da0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.3721a393.chunk.css.map": "/static/css/main.3721a393.chunk.css.map",
+    "static/js/2.8669eca8.chunk.js.LICENSE.txt": "/static/js/2.8669eca8.chunk.js.LICENSE.txt",
+    "static/media/frankluisravelo.cecd500c.pdf": "/static/media/frankluisravelo.cecd500c.pdf",
+    "static/media/github.d8f89194.svg": "/static/media/github.d8f89194.svg",
+    "static/media/gmail.25db2fd3.svg": "/static/media/gmail.25db2fd3.svg",
+    "static/media/image.060e4184.ico": "/static/media/image.060e4184.ico",
+    "static/media/linkedin.60698d9f.svg": "/static/media/linkedin.60698d9f.svg",
+    "static/media/twitter.5d0b5619.svg": "/static/media/twitter.5d0b5619.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a76ddda4.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.8669eca8.chunk.js",
+    "static/css/main.3721a393.chunk.css",
+    "static/js/main.6040a706.chunk.js"
+  ]
+}
