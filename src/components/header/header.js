@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 
+import Pdf from './frankluisravelo.pdf';
 import Linkedin from '../../svg/linkedin.svg';
 import Github from '../../svg/github.svg';
 import Mail from "../../svg/gmail.svg";
@@ -16,7 +17,7 @@ import twitter from "../../svg/twitter.svg";
 const Navigation = () => {
     return (
     <MyNavbar collapseOnSelect expand="lg" bg="ligth">
-      <Brand style={{color: `#fff`}} href="#home">Frank Luis-Ravelo</Brand>
+      <Brand style={{color: `#fff`}} href={Pdf} target = "_blank">Frank Luis-Ravelo</Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
