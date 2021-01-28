@@ -16,7 +16,7 @@ import twitter from "../../svg/twitter.svg";
 const Navigation = () => {
     return (
     <MyNavbar collapseOnSelect expand="lg" bg="ligth">
-      <Navbar.Brand href="#home" style={{fontFamily: 'Bungee Shade', cursive: `true`, color: `#999`, fontSize: `2em`}}>Frank Luis-Ravelo</Navbar.Brand>
+      <Brand style={{color: `#fff`}} href="#home">Frank Luis-Ravelo</Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -44,21 +44,30 @@ const Navigation = () => {
 
 const MyNavbar = styled(Navbar)`
   background-color: #282c34;
-  margin-bottom: -60px;
+  min-height: 10vh;
   `
+
+const Brand = styled(Navbar.Brand)`
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.2em;
+  }
+`
 
 const Icon = styled.img`
   width: 35px;
   height: auto;
 
   :hover {
-  animation: Icon-animation infinite 2s linear;
+  animation: Icon-animation infinite 10s linear;
     @keyframes Icon-animation {
     from {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(-360deg);
+      transform: rotate(360deg);
     }
   }
 }
