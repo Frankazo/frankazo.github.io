@@ -1,12 +1,14 @@
-import logo from './Logo.ico';
-import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+
+import Navigation from './components/header/header.js';
+import Logo from './components/Logo/Logo.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Navigation />
+      <Logo />
     </div>
   );
 }
