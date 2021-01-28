@@ -16,11 +16,12 @@ import twitter from "../../svg/twitter.svg";
 const Navigation = () => {
     return (
     <MyNavbar collapseOnSelect expand="lg" bg="ligth">
-      <Navbar.Brand href="#home" style={{color: `#999`, fontSize: `2em`}}>Frank Luis-Ravelo</Navbar.Brand>
+      <Navbar.Brand href="#home" style={{fontFamily: 'Bungee Shade', cursive: `true`, color: `#999`, fontSize: `2em`}}>Frank Luis-Ravelo</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           {/*
+          
           <Nav.Link href="#pricing" disabled>Button</Nav.Link>
           <Nav.Link href="#pricing" disabled>Disable</Nav.Link>
           */}
@@ -47,8 +48,20 @@ const MyNavbar = styled(Navbar)`
   `
 
 const Icon = styled.img`
-  width: 40px;
+  width: 35px;
   height: auto;
+
+  :hover {
+  animation: Icon-animation infinite 2s linear;
+    @keyframes Icon-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+}
 `
 
 export default Navigation
