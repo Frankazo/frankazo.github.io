@@ -17,3 +17,8 @@ code {
 .NavBar {
   min-height: 10vh;
 }
+.Switch {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

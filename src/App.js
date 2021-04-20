@@ -19,13 +19,15 @@ function App() {
     <GlobalStyles/>
         <div className="App">
           <Navigation/>
-          <Switch
-            checked={theme}
-            onChange={themeToggler}
-            color="primary"
-            name="theme"
-            inputProps={{ 'aria-label': 'primary checkbox' }}
-          />
+          <div className="Switch">
+            <Switch
+              checked={theme}
+              onChange={themeToggler}
+              color="primary"
+              name="theme"
+              inputProps={{ 'aria-label': 'primary checkbox' }}
+            />
+          </div>
           <Logo/>
 
         </div>
