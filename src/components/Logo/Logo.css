@@ -1,6 +1,9 @@
 .App-logo {
   height: 40vmin;
+
+  transition: height 0.15s;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -16,6 +19,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-logo:hover {
+  height: 60vh;
+
+  transition: height 0.15s;
 }
 
 @keyframes App-logo-spin {
