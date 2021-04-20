@@ -13,21 +13,19 @@ import twitter from "../../svg/twitter.svg";
 // import Node from "../../svg/node.svg";
 // import reactLogo from "../../svg/react.svg";
 
-
 const Navigation = () => {
     return (
-    <MyNavbar collapseOnSelect expand="lg" bg="ligth">
-      <Brand style={{color: `#fff`}} href={Pdf} target = "_blank">Frank Luis-Ravelo</Brand>
+    <Navbar className="NavBar" collapseOnSelect expand="lg" bg="ligth">
+      <Brand href={Pdf} target = "_blank">Frank Luis-Ravelo</Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           {/*
-          
           <Nav.Link href="#pricing" disabled>Button</Nav.Link>
           <Nav.Link href="#pricing" disabled>Disable</Nav.Link>
           */}
         </Nav>
-        <Nav.Link href="https://www.linkedin.com/in/franklr" target="_blank" rel="noopener noreferrer"><Icon src={Linkedin} alt="Linkedin" />
+        <Nav.Link href="https://www.linkedin.com/in/franklr" target="_blank"  ><Icon src={Linkedin} alt="Linkedin" />
           </Nav.Link>
 
         <Nav.Link href="https://www.github.com/frankazo" target="_blank" rel="noopener noreferrer"><Icon src={Github} alt="Linkedin" />
@@ -39,19 +37,19 @@ const Navigation = () => {
         <Nav.Link href="mailto: Frankluisravlo@gmail.com"><Icon src={Mail} alt="Linkedin" />
           </Nav.Link>
       </Navbar.Collapse>
-    </MyNavbar>
+    </Navbar>
     )
 }
 
-const MyNavbar = styled(Navbar)`
-  background-color: #282c34;
-  min-height: 10vh;
-  `
+// const MyNavbar = styled(Navbar)`
+//   background-color: #282c34;
+//   min-height: 10vh;
+//   `
 
 const Brand = styled(Navbar.Brand)`
   font-family: 'Bungee Shade', cursive;
   font-size: 2em;
-
+  
   @media only screen and (max-width: 600px) {
     font-size: 1.2em;
   }

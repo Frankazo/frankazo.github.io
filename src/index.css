@@ -13,6 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- .App {
-  background-color: #282c34;
- }
+
+.NavBar {
+  min-height: 10vh;
+}
