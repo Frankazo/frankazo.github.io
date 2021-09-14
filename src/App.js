@@ -1,11 +1,15 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import React, { useState} from "react";
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./theme/globalStyles";
 import { lightTheme, darkTheme } from "./theme/themes.js"
 
-import Navigation from './components/header/header.js';
-import Logo from './components/Logo/Logo.js';
+import Navbar from './components/Navbar/Navbar.js';
+import About from './components/About/About.js';
+import Contact from './components/Contact/Contact.js';
+import Projects from './components/Projects/Projects.js';
+import Skills from './components/Skills/Skills.js';
+import Testimonials from './components/testimonials/testimonials.js';
 
 
 function App() {
@@ -18,19 +22,15 @@ function App() {
     <>
     <GlobalStyles/>
         <div className="App">
-          <Navigation
+          <Navbar 
             theme={theme}
             themeToggler={themeToggler}
           />
-          <Logo/>
-
-          {/*       
-            <About />
-            <Projects />
-            <Skills />
-            <Testimonials />
-            <Contact /> 
-          */}
+          <About />
+          <Projects />
+          <Skills />
+          <Testimonials />
+          <Contact />
         </div>
       </>
     </ThemeProvider>
