@@ -6,7 +6,7 @@ import { lightTheme, darkTheme } from "./theme/themes.js"
 
 import Navigation from './components/header/header.js';
 import Logo from './components/Logo/Logo.js';
-import Switch from '@material-ui/core/Switch';
+
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -18,18 +18,19 @@ function App() {
     <>
     <GlobalStyles/>
         <div className="App">
-          <Navigation/>
-          <div className="Switch">
-            <Switch
-              checked={theme}
-              onChange={themeToggler}
-              color="primary"
-              name="theme"
-              inputProps={{ 'aria-label': 'primary checkbox' }}
-            />
-          </div>
+          <Navigation
+            theme={theme}
+            themeToggler={themeToggler}
+          />
           <Logo/>
 
+          {/*       
+            <About />
+            <Projects />
+            <Skills />
+            <Testimonials />
+            <Contact /> 
+          */}
         </div>
       </>
     </ThemeProvider>
