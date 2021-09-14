@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 
 const Contact = () => {
@@ -43,11 +44,22 @@ const Contact = () => {
               Connect With Me
             </h2>
             <p className="leading-relaxed mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-              suscipit officia aspernatur veritatis. Asperiores, aliquid?
+              Feel free to connect with me on Social or send me an email!
             </p>
-            <a className="leading-relaxed mb-5" href="https://www.linkedin.com/in/franklr" target="_blank"><img src="./svg/linkedin.svg" alt="Linkedin" />
-            </a>
+            <div className="flex justify-center">
+              <a className="leading-relaxed mb-5" href="https://www.linkedin.com/in/franklr" target="_blank">
+                <img src="./svg/linkedin.svg" alt="Linkedin" className="w-20 h-20 flex-shrink-0 mr-6"/>
+              </a>
+              <a className="leading-relaxed mb-5" href="https://www.github.com/frankazo" target="_blank">
+                <img src="./svg/github.svg" alt="Github" className="w-20 h-20 flex-shrink-0 mr-6"/>
+              </a>
+              <a className="leading-relaxed mb-5" href="https://www.twitter.com/frankazolr" target="_blank">
+                <img src="./svg/twitter.svg" alt="Twitter" className="w-20 h-20 flex-shrink-0 mr-6"/>
+              </a>
+              <a className="leading-relaxed mb-5" href="mailto: Frankluisravlo@gmail.com" target="_blank">
+                <img src="./email.png" alt="Email" className="h-16 flex-shrink-0 mr-6"/>
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Projects from './components/Projects/Projects.js';
 import Skills from './components/Skills/Skills.js';
-import Testimonials from './components/testimonials/testimonials.js';
+// imp\ort Testimonials from './components/testimonials/testimonials.js';
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           <About />
           <Projects />
           <Skills />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
         </div>
       </>

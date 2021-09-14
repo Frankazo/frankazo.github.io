@@ -18,9 +18,12 @@ const NavBar = ({ theme, themeToggler}) => {
             <a href="#skills" className="mr-5 text-white">
               Skills
             </a>
-            <a href="#testimonials" className="mr-5 text-white">
+            {/* <a href="#testimonials" className="mr-5 text-white">
             Testimonials
-          </a>
+          </a> */}
+            <a href="./frankluisravelo.pdf" target = "_blank" className="mr-5 text-white">
+              Resume
+            </a>
           </nav>
 
           <Switch

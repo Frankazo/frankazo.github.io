@@ -11,9 +11,7 @@ const About = () => {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          I'm a JavaScript Fan and I'm open to learning new things every day.
           </p>
           <div className="flex justify-center">
             <a
@@ -28,12 +26,9 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
-          />
+        <div className="relative w-60 h-60">
+          <img class="rounded-full border border-green-100 shadow-sm" src="./me.JPG" alt="Frank" />
+          <div class="absolute top-4 right-4 h-8 w-8 my-1 border-4 border-white rounded-full bg-green-300 z-2"></div>
         </div>
       </div>
     </section>
