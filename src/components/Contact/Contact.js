@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <section id="contact" className="relative">
-        <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
@@ -43,20 +43,25 @@ const Contact = () => {
             <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
               Connect With Me
             </h2>
-            <p className="leading-relaxed mb-5">
+            <p className="leading-relaxed mb-5 py-10">
               Feel free to connect with me on Social or send me an email!
+              <br />
+              Feel free to connect with me on Social or send me an email!
+              <br />
+              Feel free to connect with me on Social or send me an email!
+              <br />
             </p>
             <div className="flex justify-center">
-              <a className="leading-relaxed mb-5" href="https://www.linkedin.com/in/franklr" target="_blank">
+              <a className="leading-relaxed mb-5 px-2" href="https://www.linkedin.com/in/franklr" target="_blank">
                 <img src="./svg/linkedin.svg" alt="Linkedin" className="w-20 h-20 flex-shrink-0 mr-6"/>
               </a>
-              <a className="leading-relaxed mb-5" href="https://www.github.com/frankazo" target="_blank">
+              <a className="leading-relaxed mb-5 px-2" href="https://www.github.com/frankazo" target="_blank">
                 <img src="./svg/github.svg" alt="Github" className="w-20 h-20 flex-shrink-0 mr-6"/>
               </a>
-              <a className="leading-relaxed mb-5" href="https://www.twitter.com/frankazolr" target="_blank">
+              <a className="leading-relaxed mb-5 px-2" href="https://www.twitter.com/frankazolr" target="_blank">
                 <img src="./svg/twitter.svg" alt="Twitter" className="w-20 h-20 flex-shrink-0 mr-6"/>
               </a>
-              <a className="leading-relaxed mb-5" href="mailto: Frankluisravlo@gmail.com" target="_blank">
+              <a className="leading-relaxed mb-5 px-2" href="mailto: Frankluisravlo@gmail.com" target="_blank">
                 <img src="./email.png" alt="Email" className="h-16 flex-shrink-0 mr-6"/>
               </a>
             </div>

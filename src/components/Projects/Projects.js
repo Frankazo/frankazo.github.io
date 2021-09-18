@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../../data";
@@ -21,6 +22,7 @@ const Projects = () => {
                 <a
                   href={project.link}
                   key={project.image}
+                  target="_blank"
                   className="sm:w-1/2 w-100 p-4">
                   <div className="flex relative">
                     <img
