@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import Switch from '@material-ui/core/Switch';
