@@ -1,12 +1,16 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import React, { useState} from "react";
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./theme/globalStyles";
 import { lightTheme, darkTheme } from "./theme/themes.js"
 
-import Navigation from './components/header/header.js';
-import Logo from './components/Logo/Logo.js';
-import Switch from '@material-ui/core/Switch';
+import Navbar from './components/Navbar/Navbar.js';
+import About from './components/About/About.js';
+import Contact from './components/Contact/Contact.js';
+import Projects from './components/Projects/Projects.js';
+import Skills from './components/Skills/Skills.js';
+// imp\ort Testimonials from './components/testimonials/testimonials.js';
+
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -18,18 +22,15 @@ function App() {
     <>
     <GlobalStyles/>
         <div className="App">
-          <Navigation/>
-          <div className="Switch">
-            <Switch
-              checked={theme}
-              onChange={themeToggler}
-              color="primary"
-              name="theme"
-              inputProps={{ 'aria-label': 'primary checkbox' }}
-            />
-          </div>
-          <Logo/>
-
+          <Navbar 
+            theme={theme}
+            themeToggler={themeToggler}
+          />
+          <About />
+          <Projects />
+          <Skills />
+          {/* <Testimonials /> */}
+          <Contact />
         </div>
       </>
     </ThemeProvider>

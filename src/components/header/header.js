@@ -7,13 +7,15 @@ import Navbar from 'react-bootstrap/Navbar'
 import Pdf from './frankluisravelo.pdf';
 import Linkedin from '../../svg/linkedin.svg';
 import Github from '../../svg/github.svg';
-import Mail from "../../svg/gmail.svg";
+// import Mail from "../../svg/gmail.svg";
 import twitter from "../../svg/twitter.svg";
 // import JS from "../../svg/javascript.svg";
 // import Node from "../../svg/node.svg";
 // import reactLogo from "../../svg/react.svg";
 
-const Navigation = () => {
+import Switch from '@material-ui/core/Switch';
+
+const Navigation = ({ theme, themeToggler}) => {
     return (
     <Navbar className="NavBar" collapseOnSelect expand="lg" bg="ligth">
       <Brand href={Pdf} target = "_blank">Frank Luis-Ravelo</Brand>
@@ -34,8 +36,16 @@ const Navigation = () => {
         <Nav.Link href="https://www.twitter.com/frankazolr" target="_blank" rel="noopener noreferrer"><Icon src={twitter} alt="Linkedin" />
           </Nav.Link>
 
-        <Nav.Link href="mailto: Frankluisravlo@gmail.com"><Icon src={Mail} alt="Linkedin" />
-          </Nav.Link>
+        {/* <Nav.Link href="mailto: Frankluisravlo@gmail.com"><Icon src={Mail} alt="Linkedin" />
+          </Nav.Link> */}
+
+        <Switch
+          checked={theme}
+          onChange={themeToggler}
+          color="primary"
+          name="theme"
+          inputProps={{ 'aria-label': 'primary checkbox' }}
+        />
       </Navbar.Collapse>
     </Navbar>
     )

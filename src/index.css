@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
@@ -14,9 +17,6 @@ code {
     monospace;
 }
 
-.NavBar {
-  min-height: 10vh;
-}
 .Switch {
   width: 100%;
   display: flex;
