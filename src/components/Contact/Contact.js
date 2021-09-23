@@ -43,14 +43,13 @@ const Contact = () => {
             <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
               Connect With Me
             </h2>
-            <p className="leading-relaxed mb-5 py-10">
-              Feel free to connect with me on Social or send me an email!
+            <h2 className="leading-relaxed mb-5 py-10">
+              I'm looking forward to connect with you!
               <br />
-              Feel free to connect with me on Social or send me an email!
               <br />
-              Feel free to connect with me on Social or send me an email!
+              Feel free to reach out through Social media or send me an email.
               <br />
-            </p>
+            </h2>
             <div className="flex justify-center">
               <a className="leading-relaxed mb-5 px-2" href="https://www.linkedin.com/in/franklr" target="_blank">
                 <img src="./svg/linkedin.svg" alt="Linkedin" className="w-20 h-20 flex-shrink-0 mr-6"/>
