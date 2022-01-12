@@ -29,6 +29,10 @@
   margin-right: 1em;
 }
 
+.MuiSvgIcon-root {
+  font-size: 2em !important;
+}
+
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
