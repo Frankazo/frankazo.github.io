@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
@@ -23,6 +24,7 @@ const ProjectContainer = ({ project }) => (
         href={project.sourceCode}
         aria-label='source code'
         className='link link--icon'
+        target="_blank"
       >
         <GitHubIcon />
       </a>
@@ -33,6 +35,7 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target="_blank"
       >
         <LaunchIcon />
       </a>

@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/no-unescaped-entities */
 import { useContext, useState } from 'react'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
@@ -46,11 +48,12 @@ const Navbar = () => {
         {contact.email ? (
           <li className='nav__list-item'>
             <a
-              href='#contact'
+              href='https://www.linkedin.com/in/franklr'
               onClick={toggleNavList}
               className='link link--nav'
+              target='_blank'
             >
-              Contact
+              Let's Connect
             </a>
           </li>
         ) : null}

@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://frankluisravelo.com',
+  title: 'FL~R',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Frank',
+  role: 'Web Developer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: './frankluisravelo.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/franklr',
+    github: 'https://github.com/frankazo',
   },
 }
 
@@ -21,28 +21,35 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Come Criollo',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'App to help connect people with small businesses in third world countries, You as a User can see restaurants around your area, Like, leave reviews, and connect with them.',
+    stack: ['React', 'Node', 'Express', 'MongoDB'],
+    sourceCode: 'https://github.com/Frankazo/come-criollo-client',
+    livePreview: 'https://frankluisravelo.com/come-criollo-client/#/',
   },
   {
-    name: 'Project 2',
+    name: 'Landing Page',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a responsive landing page to promote and funnel UX profesionals to events, following design patterns and directions from the UX designers.',
+    stack: ['HTML', 'CSS', 'Responsive'],
+    sourceCode: 'https://github.com/uie-admin/intensiveAATUR',
+    livePreview: 'https://aatur.uie.com/',
   },
   {
-    name: 'Project 3',
+    name: 'Just One Penny',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Shaped and supported Just One Penny’s app by delivering and documenting reusable components, coded using TypeScript, React, and Node, ensuring cross-browser functionality and responsiveness."',
+    stack: ['React', 'Node', 'Express', 'MongoDB'],
+    livePreview: 'https://justonepenny.org/',
+  },
+  {
+    name: 'InvApp',
+    description:
+      'A visual workspace that allows you to create, and edit visual tables.',
+    stack: ['JS', 'HTML/CSS', 'Ruby on Rails', 'PostgreSQL'],
+    sourceCode: 'https://github.com/Frankazo/inventory-app',
+    livePreview: 'https://frankazo.github.io/inventory-app/',
   },
 ]
 
@@ -52,20 +59,19 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Node',
+  'Express',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'PHP',
+  'MongoDB',
+  'MAMP',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'frankluisravlo@mail.com',
 }
 
 export { header, about, projects, skills, contact }
