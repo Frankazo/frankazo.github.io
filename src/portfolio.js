@@ -21,15 +21,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Come Criollo',
+    name: 'UI Styles system',
+    company: 'Center Centre UIE',
     description:
-      'App to help connect people with small businesses in third world countries, You as a User can see restaurants around your area, Like, leave reviews, and connect with them.',
-    stack: ['React', 'Node', 'Express', 'MongoDB'],
-    sourceCode: 'https://github.com/Frankazo/come-criollo-client',
-    livePreview: 'https://frankluisravelo.com/come-criollo-client/#/',
+      'Developed a responsive landing page to promote and funnel UX profesionals to events, following design patterns and directions from the UX designers.',
+    stack: ['CSS', 'HTML', 'Responsive'],
+    sourceCode: 'https://github.com/uie-com/css-cc',
+    livePreview: 'https://www.centercentre.com/ui/',
   },
   {
     name: 'Landing Page',
+    company: 'Center Centre UIE',
     description:
       'Developed a responsive landing page to promote and funnel UX profesionals to events, following design patterns and directions from the UX designers.',
     stack: ['HTML', 'CSS', 'Responsive'],
@@ -37,14 +39,25 @@ const projects = [
     livePreview: 'https://aatur.uie.com/',
   },
   {
-    name: 'Just One Penny',
+    name: 'Web App',
+    company: 'Just One Penny',
     description:
-      'Shaped and supported Just One Penny’s app by delivering and documenting reusable components, coded using TypeScript, React, and Node, ensuring cross-browser functionality and responsiveness."',
+      'Shaped and supported Just One Penny’s app by delivering and documenting reusable components, coded using TypeScript, React, and Node, ensuring cross-browser functionality and responsiveness.',
     stack: ['React', 'Node', 'Express', 'MongoDB'],
     livePreview: 'https://justonepenny.org/',
   },
   {
+    name: 'Come Criollo',
+    company: 'General Assembly',
+    description:
+      'App to help connect people with small businesses in third world countries, You as a User can see restaurants around your area, Like, leave reviews, and connect with them.',
+    stack: ['React', 'Node', 'Express', 'MongoDB'],
+    sourceCode: 'https://github.com/Frankazo/come-criollo-client',
+    livePreview: 'https://frankluisravelo.com/come-criollo-client/#/',
+  },
+  {
     name: 'InvApp',
+    company: 'General Assembly',
     description:
       'A visual workspace that allows you to create, and edit visual tables.',
     stack: ['JS', 'HTML/CSS', 'Ruby on Rails', 'PostgreSQL'],
