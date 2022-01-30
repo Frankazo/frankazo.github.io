@@ -21,6 +21,15 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Come Criollo',
+    company: 'General Assembly',
+    description:
+      'App to help connect people with small businesses in third world countries, You as a User can see restaurants around your area, Like, leave reviews, and connect with them.',
+    stack: ['React', 'Node', 'Express', 'MongoDB'],
+    sourceCode: 'https://github.com/Frankazo/come-criollo-client',
+    livePreview: 'https://frankluisravelo.com/come-criollo-client/#/',
+  },
+  {
     name: 'UI Styles system',
     company: 'Center Centre UIE',
     description:
@@ -47,13 +56,13 @@ const projects = [
     livePreview: 'https://justonepenny.org/',
   },
   {
-    name: 'Come Criollo',
-    company: 'General Assembly',
+    name: 'Medieval Tactics',
+    company: 'Hackathon',
     description:
-      'App to help connect people with small businesses in third world countries, You as a User can see restaurants around your area, Like, leave reviews, and connect with them.',
-    stack: ['React', 'Node', 'Express', 'MongoDB'],
-    sourceCode: 'https://github.com/Frankazo/come-criollo-client',
-    livePreview: 'https://frankluisravelo.com/come-criollo-client/#/',
+      'This is a "game" developed over a weekend Hackathon, in a team of 3, the goal was to implement socket.io to create the game.',
+    stack: ['React', 'Node', 'Express', 'Socket.io'],
+    sourceCode: 'https://github.com/Frankazo/medieval-tactics-client',
+    livePreview: 'https://frankluisravelo.com/medieval-tactics-client/#/',
   },
   {
     name: 'InvApp',
